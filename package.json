@@ -1,0 +1,40 @@
+{
+    "name": "npm1-wiseplat-keyfile-recognizer",
+    "version": "1.0.2",
+    "description": "Checks for valid structure of wiseplat web3-secret-storage/presale keyfiles",
+    "main": "src/index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "url": "git+https://github.com/wiseplat/npm1-wiseplat-keyfile-recognizer.git",
+        "type": "git"
+    },
+    "keywords": [
+        "wiseplat",
+        "blockchain",
+        "web3",
+        "web3-secret-storage",
+        "keyfile",
+        "gwsh",
+        "wsh",
+        "parity",
+        "wiseplatj",
+        "wiseplatjs",
+        "pywiseplat"
+    ],
+    "author": "Luca Zeug",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/wiseplat/npm1-wiseplat-keyfile-recognizer/issues"
+    },
+    "homepage": "https://github.com/wiseplat/npm1-wiseplat-keyfile-recognizer#readme",
+    "dependencies": {
+        "json-structure-diff": "0.0.2",
+        "underscore": "^1.8.3"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^3.1.2"
+    }
+}
